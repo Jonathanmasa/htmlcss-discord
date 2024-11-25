@@ -1,0 +1,402 @@
+/* default */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.titolo-secondario {
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 100px;
+
+}
+
+.paragrafo {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+/* header */
+header {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(11, 98, 230);
+
+}
+
+.head-container {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.logo-head {
+    width: 20%;
+    padding-left: 10px;
+
+
+}
+
+.navigazione-header {
+    width: 60%;
+    
+    
+}
+
+
+.link-head {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+li a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    
+}
+
+
+.login-head {
+    width: 20%;
+    text-align: end;
+    
+
+}
+
+.login-head button {
+    width: 50px;
+    padding: 5px;
+    background-color: white;
+    border: none;
+    border-radius: 9999px;
+}
+
+/* jumbo section */
+.jumbo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    min-height: 400px;
+
+}
+  
+.jumbo-layout {
+    width: 50%;
+    text-align: center;
+    color: white;
+
+}
+.jumbo-layout h1 {
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.jumbo-layout p {
+    margin: 40px 0;
+
+}
+
+button span {
+    font-size: 15px;
+    margin-right: 3px;
+}
+
+.jumbo-layout button {
+    margin: 0 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 9999px;
+    font-weight: bold;
+}
+
+.browser {
+    color: white;
+    background-color: black;
+}
+
+
+
+
+/* study group section */
+.study-section {
+    background-color: white;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.img-study {
+    min-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.img-study img {
+    width: 500px;
+    
+}
+
+.study-description {
+    min-width: 30%;
+    min-height: 400px;
+
+   
+}
+
+
+
+/* chillin section */
+.chillin-section {
+    background-color: rgb(228, 221, 221);
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.chillin-description {
+    min-width: 30%;
+    
+
+}
+
+.img-chillin {
+    min-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.img-chillin img {
+    width: 400px;
+}
+
+/* coach section */
+.coach-section {
+    background-color: white;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .img-coach {
+    min-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .img-coach img {
+    width: 500px;
+ }
+
+ .coach-description {
+    max-width: 30%;
+
+ }
+
+ /* audio video section */
+ .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 238, 238);
+    padding: 80px 0;
+
+ }
+
+ .video-layout {
+    min-width: 70%;
+    text-align: center;
+ }
+
+ .video-img img {
+    width: 500px;
+ }
+
+ .video-titolo {
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+ }
+
+ .video-layout :nth-child(2) {
+    margin-top: 30px;
+ }
+
+ .video-layout :nth-child(4) {
+    font-size: 20px;
+    margin-bottom: 30px;
+    background-image: url(../img/stars.svg);
+    background-position: center ;
+    background-size: contain;
+
+ }
+
+ .video-layout button {
+    margin: 0 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 9999px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(88, 88, 197);
+ }
+
+ /* footer section */
+
+ .footer-text {
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    margin-left: 35px;
+
+ }
+
+ .footer-text li {
+    margin-top: 10px;
+    font-weight: bold;
+ }
+
+
+ h5 {
+    color: rgb(88, 88, 197);
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+ }
+
+ footer {
+    background-color: rgb(28, 27, 27);
+
+ }
+
+ .footer-part {
+    width: 100%;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+ }
+
+ .specifiche-container {
+    width: 70%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .big-section img {
+    width: 25px;
+    margin-top: 15px;
+    margin-right: 5px;
+ }
+
+ .big-section h3 {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: rgb(88, 88, 197);
+ }
+
+ .lingua {
+    color: white;
+    font-size: 12px;
+    line-height: 100%;
+    vertical-align: middle;
+ }
+
+ .social {
+    width: 30%;
+    min-height: 400px;
+   
+ }
+
+ .icon {
+    color: white;
+    margin-top: 15px;
+ }
+
+ .icon i {
+    margin-right: 25px;
+ }
+
+
+ .small-section {
+    width:  20%;
+    min-height: 400px;
+    
+
+ }
+
+
+ /* registrazion */
+
+ .registrazione-contain {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+ }
+
+ .registrazione {
+    min-height: 70px;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  
+ }
+
+
+
+ .logo-footer img {
+    width: 90px;
+    padding: 5px;
+
+
+ }
+
+ .bottone-footer {
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 9999px;
+    color: white;
+    background-color:rgb(88, 88, 197);
+    
+
+ }
